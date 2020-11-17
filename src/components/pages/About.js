@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react'
+import React from 'react';
 
 export const About = () => {
     return (
-        <Fragment>
+        <div>
             <h1>About this App</h1>
             <p>App to search Github users</p>
             <p>Version: 1.0.0</p>
-        </Fragment>
+        </div>
     )
 }
 
-export default About 
+export default About; 
